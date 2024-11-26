@@ -5,7 +5,7 @@
 	1. std::funciton 本质上是一个对象，可以认为是封装了一个指针加一些上下文数据。
     2. 函数指针仅仅是一个指针，指向了一个代码片段，因此他只能去操作全局变量或者是局部变量
     3. std::function  是一个模版类，与STL的思想相统一，
-    3. 使用std：：function 可以实现多态，见如下代码片段
+    4. 使用std：：function 可以实现多态，见如下代码片段
 
         #include <iostream>
         #include <functional>
@@ -55,7 +55,7 @@
             return 0;
         }
 
-    4. 使用std::function 相比于函数指针，必然会引入一些开销
+    5. 使用std::function 相比于函数指针，必然会引入一些开销
             
        
     
